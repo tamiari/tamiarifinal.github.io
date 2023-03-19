@@ -1,0 +1,285 @@
+
+p, li, ul {
+
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu menu menu main main main'
+      'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 170px;
+  }
+  
+  .grid-container > div {
+
+    text-align:end;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+
+
+  /*Nombre*/
+
+
+.item1 { grid-area: header;
+         font-family: 'Aboreto', cursive;
+         padding: 15px 10px 20px 15px;
+        /* margin-top: 40px;
+         margin-bottom: 20px;
+         margin-left: 450px;
+         margin-right: 520px;*/
+        background-color:  lightgoldenrodyellow;        
+        text-align:justify;
+        
+ }
+
+  #subtitle{
+        font-size: 20px;
+        text-align:end;
+        font-family: Helvetica;
+        font-style: oblique;
+      }
+
+
+      /*Formacion*/
+
+
+.item2 { grid-area: menu; 
+    font-family:'Courier New';
+    font-size: 15px;
+    text-align: left;
+    background-color: #d6f5d6;
+    color:#d6f5d6
+    
+}
+
+  #littleTitle{
+    text-indent: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+  div{
+    font-size: 15px;
+    text-align: justify;
+    font-family: monospace;
+
+}
+
+.redondo{
+    display:inline-block,;
+    display: block;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    padding:0.85em 1.5em;
+    /*font-size: 1em;*/
+    font-size: 16px;
+    cursor:pointer;
+    background: #d6f5d6;
+    text-decoration: none;
+    font-size: 8px;
+    text-transform: uppercase;  
+    border-color: #d6f5d6;
+    border: 0.5px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    left: 30% ;
+    bottom: 5%;
+  
+
+}
+
+.redondo:hover {
+    background: #eee;
+
+}
+
+
+
+.redondo11 {
+
+  display:inline-block,;
+    display: block;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    padding:0.85em 1.5em;
+    /*font-size: 1em;*/
+    font-size: 16px;
+    cursor:pointer;
+    background: #d6f5d6;
+    text-decoration: none;
+    font-size: 8px;
+    text-transform: uppercase;  
+    border-color: #d6f5d6;
+    border: 0.5px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    left: 30% ;
+  bottom: 1%;
+
+
+}
+
+
+
+/* Contacto*/
+
+
+
+.item3 { grid-area: main;
+    background-color:#ffe6e6;
+    font-size: 15px;
+    font-family: Georgia, serif;
+    border: 1px solid black;
+    border-radius: 4px;
+    color:#ffe6e6
+  }
+
+
+  .redondo2{
+    display:inline-block,;
+    display: block;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    padding:0.85em 1.5em;
+    /*font-size: 1em;*/
+    font-size: 16px;
+    cursor:pointer;
+    background: #ffe6e6;
+    text-decoration: none;
+    font-size: 8px;
+    text-transform: uppercase;  
+    border-color: #ffe6e6;
+    border: 0.5px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    left: 380% ;
+    bottom: 840%;
+    
+
+}
+
+.redondo2:hover {
+    background: #eee;
+
+}
+
+
+.redondo21{
+  display:inline-block,;
+  display: block;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  padding:0.85em 1.5em;
+  /*font-size: 1em;*/
+  font-size: 16px;
+  cursor:pointer;
+  background: #ffe6e6;
+  text-decoration: none;
+  font-size: 8px;
+  text-transform: uppercase;  
+  border-color: #ffe6e6;
+  border: 0.5px;
+  margin-right: auto;
+  margin-left: auto;
+  position:relative;
+  left: 275% ;
+  bottom: 740%;
+  
+
+}
+
+
+
+/*Habilidades*/
+
+  
+
+.item4 { grid-area: footer; 
+    background-color:#f2e6ff;
+    text-decoration-style: solid;
+    font-family:Arial;
+    color: #f2e6ff;
+    
+  }
+
+#developing{
+    font-family:Georgia;
+    font-size: 20px;
+    
+}
+
+
+.redondo3{
+  display:inline-block,;
+  display: block;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  padding:0.85em 1.5em;
+  /*font-size: 1em;*/
+  font-size: 16px;
+  cursor:pointer;
+  background: #f2e6ff;
+  text-decoration: none;
+  font-size: 8px;
+  text-transform: uppercase;  
+  border-color: #f2e6ff;
+  border: 0.5px;
+  margin-right: auto;
+  margin-left: auto;
+  position:relative;
+  left: 120% ;
+  bottom: 390%;
+  
+}
+
+
+  .redondo31 {
+    display:inline-block,;
+    display: block;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    padding:0.85em 1.5em;
+    /*font-size: 1em;*/
+    font-size: 16px;
+    cursor:pointer;
+    background: #f2e6ff;
+    text-decoration: none;
+    font-size: 8px;
+    text-transform: uppercase;  
+    border-color: #f2e6ff;
+    border: 0.5px;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    left: 27% ;
+    bottom: 450%;
+    /*color: #f2e6ff;*/
+}
+
+.redondo3:hover {
+  background: #eee;
+
+}
